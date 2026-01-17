@@ -1,0 +1,9 @@
+@import "tailwindcss";
+html {
+    /* 1. Makes the scroll animation smooth instead of instant */
+    scroll-behavior: smooth;
+    
+    /* 2. Offsets the scroll position so the sticky header doesn't cover content */
+    /* This number should be slightly larger than your header height (~70px) */
+    scroll-padding-top: 60px; 
+  }

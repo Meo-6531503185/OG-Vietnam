@@ -1,0 +1,31 @@
+name: Deploy React to Lolipop FTP
+
+on:
+  push:
+    branches:
+      - main  # or 'master'
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Get the latest code
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
+
+      # 2. Install Node and Build React
+      - name: 🔨 Install & Build
+        run: |
+          npm install
+          npm run build
+
+      # 3. Upload 'dist' folder to FTP
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/      # The folder React built
+          server-dir: /web/       # Where to put it on Lolipop (Adjust this!)

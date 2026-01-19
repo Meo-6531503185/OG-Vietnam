@@ -7,8 +7,9 @@ const Navbar = () => {
   
   // Language Dropdown States
   const [isLangOpen, setIsLangOpen] = useState(false);
-  const { language, changeLanguage, translations } = useLanguage();
   
+  // Hook to get current language and translation data
+  const { language, changeLanguage, translations } = useLanguage();
   const t = translations[language];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -19,7 +20,6 @@ const Navbar = () => {
     { label: t.navbar.about, href: '#about', key: 'about' },
     { label: t.navbar.business, href: '#business', key: 'business' },
     { label: t.navbar.services, href: '#services', key: 'services' },
-    //{ label: t.navbar.client, href: '#client', key: 'client' },
     { label: t.navbar.partner, href: '#partner', key: 'partner' },
   ];
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [navItems]);
+  }, [navItems]); // Added navItems dependency so it updates on lang change
 
   // --- 2. LANGUAGE HANDLER ---
   const handleLanguageChange = (lang) => {
@@ -61,7 +61,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="shrink-0">
-            <img src="/logo.png" alt="OG-vietnam" className="h-12 w-auto" />
+            <img src="logo.webp" alt="OG-Trading" className="h-12 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
@@ -72,11 +72,10 @@ const Navbar = () => {
                 <li key={index}>
                   <a
                     href={item.href}
-                    // APPLY GRADIENT TEXT HERE
                     className={`text-sm font-medium transition-all duration-75 whitespace-nowrap ${
                       isActive 
-                        ? 'font-bold text-[#006CB8]' // Active: Gradient Text
-                        : 'text-gray-800 hover:text-[#006CB8]' // Hover: Gradient Text
+                        ? 'font-bold text-[#006CB8]' 
+                        : 'text-gray-800 hover:text-[#006CB8]'
                     }`}
                   >
                     {item.label}
@@ -91,7 +90,8 @@ const Navbar = () => {
                 onClick={toggleLang}
                 className="flex items-center gap-1 text-sm font-medium text-gray-800 hover:text-[#0367AC] transition-colors"
               >
-                <i className="fa-solid fa-globe"></i> {language === 'EN' ? t.navbar.english : t.navbar.vietnamese} <i className="fa-solid fa-chevron-down text-xs"></i>
+                {/* Display Current Language */}
+                <i className="fa-solid fa-globe"></i> {language === 'EN' ? t.navbar.english : t.navbar.thai} <i className="fa-solid fa-chevron-down text-xs"></i>
               </button>
               
               {isLangOpen && (
@@ -102,17 +102,18 @@ const Navbar = () => {
                   >
                     🇺🇸 {t.navbar.english}
                   </button>
+                  {/* Changed 'VN' to 'TH' for Thai */}
                   <button 
-                    onClick={() => handleLanguageChange('VN')}
+                    onClick={() => handleLanguageChange('TH')}
                     className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
                   >
-                    🇻🇳 {t.navbar.vietnamese}
+                    🇹🇭 {t.navbar.thai}
                   </button>
                 </div>
               )}
             </li>
 
-            {/* Contact Button (Reverted to original filled gradient) */}
+            {/* Contact Button */}
             <li>
               <a
                 href="#contact"
@@ -148,7 +149,7 @@ const Navbar = () => {
                     onClick={() => setIsMenuOpen(false)}
                     className={`block text-sm font-medium transition-all duration-75 py-2 ${
                         isActive 
-                        ? 'font-bold pl-2 bg-linear-to-r from-[#47B6FA] to-[#0367AC] bg-clip-text text-transparent border-l-4 border-[#0367AC]' // Mobile Active
+                        ? 'font-bold pl-2 bg-linear-to-r from-[#47B6FA] to-[#0367AC] bg-clip-text text-transparent border-l-4 border-[#0367AC]' 
                         : 'text-gray-800 hover:text-[#0367AC]'
                     }`}
                   >
@@ -167,15 +168,16 @@ const Navbar = () => {
                     {t.navbar.english}
                 </button>
                 <div className="border-r border-gray-300 h-5"></div>
+                {/* Changed VN to TH here as well */}
                 <button 
-                    onClick={() => handleLanguageChange('VN')} 
-                    className={`text-sm font-medium ${language === 'VN' ? 'font-bold text-[#0367AC]' : 'text-gray-500'}`}
+                    onClick={() => handleLanguageChange('TH')} 
+                    className={`text-sm font-medium ${language === 'TH' ? 'font-bold text-[#0367AC]' : 'text-gray-500'}`}
                 >
-                    {t.navbar.vietnamese}
+                    {t.navbar.thai}
                 </button>
             </li>
 
-            {/* Contact Button (Mobile) */}
+            {/* Mobile Contact Button */}
             <li>
               <a
                 href="#contact"

@@ -4,11 +4,11 @@ import { useLanguage } from '../i18n/LanguageContext';
 const Partners = () => {
   const { language, translations } = useLanguage();
   const t = translations[language];
-  // Placeholder data for logos. Replace src with your actual logo imports.
+  
   const partners = [
-    { name: "DAIM", src: "/Logos/Daiwa.png", alt: "Daiwa Chemical Industries Logo" },
-    { name: "TEAMPLAS", src: "/Logos/Teamplas Chemical.png", alt: "Teamplas Chemical Co., Ltd. Logo" },
-    { name: "SIAM ECO-KASEI", src: "/Logos/Siam Eco.png", alt: "Siam Eco-Kasei Co., Ltd. Logo" },
+    { name: "DAIM", src: "Logos/Daiwa.webp", alt: "Daiwa Chemical Industries Logo" },
+    { name: "TEAMPLAS", src: "Logos/Teamplas Chemical.webp", alt: "Teamplas Chemical Co., Ltd. Logo" },
+    { name: "SIAM ECO-KASEI", src: "Logos/Siam Eco.webp", alt: "Siam Eco-Kasei Co., Ltd. Logo" },
   ];
 
   return (
@@ -27,13 +27,16 @@ const Partners = () => {
         </div>
 
         {/* Logo Row */}
-        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 lg:gap-24 grayscale hover:grayscale-0 transition-all duration-300">
+        {/* UPDATED: Removed plain 'grayscale'. Added 'md:grayscale'. 
+            Now Mobile = Color, Desktop = Grayscale (until hover). */}
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 lg:gap-24 md:grayscale md:hover:grayscale-0 transition-all duration-300">
           {partners.map((partner, index) => (
             <div key={index} className="p-4">
               <img 
                 src={partner.src} 
                 alt={partner.alt} 
-                className="max-h-16 md:max-h-20 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+                // UPDATED: 'md:opacity-80' means full opacity on mobile, 80% on desktop
+                className="max-h-16 md:max-h-20 w-auto object-contain md:opacity-80 md:hover:opacity-100 transition-opacity"
               />
             </div>
           ))}
@@ -42,10 +45,6 @@ const Partners = () => {
       </div>
 
       {/* --- The Downward V-Shape Separator --- */}
-      {/* This div is placed absolutely at the bottom. It has the light blue background color.
-         The clip-path creates an UPWARD pointing triangle. When placed over the white background,
-         it creates the illusion of the white section pointing DOWN.
-      */}
       <div 
         className="absolute bottom-0 left-0 w-full h-16 md:h-24 bg-[#F0F8FF] z-0 pointer-events-none"
         style={{ 

@@ -9,7 +9,7 @@ export const translations = {
       partner: 'Our partner',
       contact: 'Contact',
       english: 'English',
-      vietnamese: 'Tiếng Việt',
+      thai: 'ไทย', 
     },
     hero: {
       title: 'Create for the future',
@@ -24,7 +24,7 @@ export const translations = {
     business: {
       chemical: {
         title: 'Chemical Division',
-        mainImage: '/Business/Divisions/Chemical Division.png',
+        mainImage: 'Business/Divisions/Chemical Division.webp',
         descriptions: [
           'We import, distribute, and commercialize chemicals for various industries, such as chemical manufacturing, animal feed, pulp & paper, packaging, water treatment, and mining. We also handle materials for artificial leather production, semiconductor and brake industries.',
           'We offer OEM manufacturing service for synthetic leather for the automotive industry. Our OEM factory, located in the Bangna-Trad area, specializes in producing PU leather for the automotive industry using both wet and dry processes.<br/><br/>We offer flexible production capacity to meet your requirements.',
@@ -34,23 +34,23 @@ export const translations = {
           {
             title: 'Basic Chemicals',
             description: 'We supply Chlor-alkali, Soda Ash, Calcium Chloride, MEK, DMF, ECH, HAS, STS, Activated Carbon, Calcium Stearate, Membrane Filter, Silica Filler, Glass fiber',
-            image: '/Business/Products/Basic Chemicals.png'
+            image: 'Business/Products/Basic Chemicals.webp'
           },
           {
             title: 'Fine Chemicals',
             description: 'Urethane adhesive, Water-based Coating Agents, Solvent-based Coating Agents, Heat/Water/Oil resistance Agents, Defoaming Agents, Pulps, Pigment colors.',
-            image: '/Business/Products/Fine Chemicals.png'
+            image: 'Business/Products/Fine Chemicals.webp'
           },
           {
             title: 'Artificial Leather',
             description: 'Release Paper, Coating agents, Adhesive, Flame retardant, Fabric, Cross Linker',
-            image: '/Business/Products/Artificial Leather.png'
+            image: 'Business/Products/Artificial Leather.webp'
           },
         ],
       },
       plastic: {
         title: 'Plastic Division',
-        mainImage: '/Business/Divisions/Plastic Division.png',
+        mainImage: 'Business/Divisions/Plastic Division.webp',
         descriptions: [
           'We import, distribute, and market functional plastic compounds for the plastics industry, including applications in automotive, home appliances, and electronics. Not only in domestic market, we export those products to international markets too.',
           'We also handle inventory-based sales of plastic resins and additives for plastic compound manufacturing. In addition, we have expertise in export business for the international market.',
@@ -60,23 +60,23 @@ export const translations = {
           {
             title: 'Plastic Resins',
             description: 'We supply both of General purpose resins and engineering resins: PP, HDPE, LDPE, LLDPE, ABS, AS, HIPS, PC, PC/ABS, PET, PA6',
-            image: '/Business/Products/Plastic Resins.png'
+            image: 'Business/Products/Plastic Resins.webp'
           },
           {
             title: 'Plastic Additives',
             description: 'To modify or enhance plastic resin properties, appearance, processing,or performance :Glass fiber, Talcum, Mica, Halogen-FR, Non Halogen-FR, ATO, AO, HALS, UVA.',
-            image: '/Business/Products/Plastic Add.png'
+            image: 'Business/Products/Plastic Add.webp'
           },
           {
             title: 'Functional Plastic Compounds',
             description: 'Various functional plastic compounds : PP-TA, PP-GF, PP-MI, PP-MIGF, PP-V2, PP-V0, ABS-V0,ABS-V2, HIPS- V0, PC-GF, PC-V0, PC/ABS-V0, PC/ABS-V2, PA6-GF etc',
-            image: '/Business/Products/Functional Plastic.png'
+            image: 'Business/Products/Functional Plastic.webp'
           },
         ],
       },
       textile: {
         title: 'Textile Division',
-        mainImage: '/Business/Divisions/Textile Division.png',
+        mainImage: 'Business/Divisions/Textile Division.webp',
         descriptions: [
           'As a leading distributor of textile chemicals and dyestuffs, we leverage Nagase-OG Colors and Chemicals\' proven expertise. We serve dyeing factories across Thailand and international markets, supporting partnerships with renowned global brands. Our integrated network delivers innovative solutions across all textile applications, from fashion apparel to automotive and industrial materials.',
         ],
@@ -85,17 +85,17 @@ export const translations = {
           {
             title: 'Dyestuff',
             description: 'Suitable dyes from a reliable supplier for a variety of materials, Cotton, Rayon, Polyester, Nylon, Fabric, Yarn, etc. Appropriate color and fastness for each application and situation.',
-            image: '/Business/Products/Dye.png'
+            image: 'Business/Products/Dye.webp'
           },
           {
             title: 'Auxiliary Agent',
             description: 'Auxiliary agents that achieve highly efficient dyeing, pretreatment, leveling agent, washing agent, fastness improver. We can also propose auxiliary agents that are certified by Bluesign or ZDHC.',
-            image: '/Business/Products/Agent.png'
+            image: 'Business/Products/Agent.webp'
           },
           {
             title: 'Functional Agent',
             description: 'Various functional agents, Antimicrobial Deodorizing, Anti- Mosquito & Mite, Water Repellent, Flame-Retarding, Anti- Static, Moisture Management, Cool & Hot Feeling.',
-            image: '/Business/Products/Functional Agent.png'
+            image: 'Business/Products/Functional Agent.webp'
           },
         ],
       },
@@ -105,6 +105,7 @@ export const translations = {
       title: 'Our Services',
       banner: 'If you have any problem or would you like a quote, please contact us.',
       contactButton: 'Contact',
+      // Added all 4 items here
       items: [
         {
           title: 'Import & Distribution',
@@ -165,170 +166,171 @@ export const translations = {
       privacyPolicy: 'Privacy Policy',
     },
   },
-  VN: {
+  TH: { 
     navbar: {
-      home: 'TRANG CHỦ',
-      about: 'Về chúng tôi',
-      business: 'Hoạt động kinh doanh',
-      services: 'Dịch vụ của chúng tôi',
-      client: 'Khách hàng của chúng tôi',
-      partner: 'Đối tác của chúng tôi',
-      contact: 'Liên hệ',
+      home: 'หน้าหลัก',
+      about: 'เกี่ยวกับเรา',
+      business: 'ธุรกิจของเรา',
+      services: 'บริการของเรา',
+      client: 'ลูกค้าของเรา',
+      partner: 'พันธมิตรของเรา',
+      contact: 'ติดต่อเรา',
       english: 'English',
-      vietnamese: 'Tiếng Việt',
+      thai: 'ไทย',
     },
     hero: {
-      title: 'Tạo nên tương lai',
-      subtitle: 'Cảm hứng từ hóa học mang lại hạnh phúc cho con người',
-      contactText: 'Nếu bạn gặp bất kỳ vấn đề nào hoặc muốn nhận báo giá, vui lòng liên hệ với chúng tôi.',
-      button: 'Liên hệ',
+      title: 'สร้างสรรค์เพื่ออนาคต',
+      subtitle: 'แรงบันดาลใจทางเคมีนำมาซึ่งความสุขสู่ผู้คน',
+      contactText: 'หากคุณมีข้อสงสัยหรือต้องการใบเสนอราคา โปรดติดต่อเรา',
+      button: 'ติดต่อเรา',
     },
     aboutUs: {
-      title: 'OG Thái Lan',
-      description: 'OG Trading (Thailand) Co., Ltd. là công ty thương mại chuyên biệt cung cấp các giải pháp toàn diện trong lĩnh vực bán hàng, xuất khẩu, nhập khẩu và phân phối dựa vào hàng tồn kho trên khắp Thái Lan, Malaysia, Indonesia và Nhật Bản. Chúng tôi phục vụ các ngành công nghiệp chính bao gồm hóa chất, ô tô, điện tử, hợp chất nhựa và dệt may. Là một phần của mạng lưới toàn cầu của OG Corporation Nhật Bản với hơn 3.300 khách hàng và sự hiện diện mạnh mẽ tại Trung Quốc, Ấn Độ và Đông Nam Á, chúng tôi cung cấp các giải pháp được tùy chỉnh để đáp ứng nhu cầu kinh doanh của bạn.',
+      title: 'OG Thailand',
+      description: 'บริษัท โอจี เทรดดิ้ง (ไทยแลนด์) จำกัด เป็นบริษัทการค้าเฉพาะทางที่ให้บริการโซลูชั่นครบวงจร ทั้งการขาย การส่งออก การนำเข้า และการกระจายสินค้าจากคลังสินค้า ครอบคลุมทั้งในประเทศไทย มาเลเซีย อินโดนีเซีย และญี่ปุ่น เราให้บริการในอุตสาหกรรมหลักต่างๆ รวมถึงเคมีภัณฑ์ ยานยนต์ อิเล็กทรอนิกส์ เรซินคอมพาวด์ และสิ่งทอ ในฐานะส่วนหนึ่งของเครือข่ายระดับโลกของ OG Corporation ประเทศญี่ปุ่น ที่มีลูกค้ากว่า 3,300 ราย และมีความแข็งแกร่งในจีน อินเดีย และเอเชียตะวันออกเฉียงใต้ เราพร้อมส่งมอบโซลูชั่นที่ปรับแต่งให้เหมาะสมกับความต้องการทางธุรกิจของคุณ',
     },
     business: {
       chemical: {
-        title: 'Bộ phận Hóa chất',
-        mainImage: '/Business/Divisions/Chemical Division.png',
+        title: 'แผนกเคมีภัณฑ์',
+        mainImage: 'Business/Divisions/Chemical Division.webp',
         descriptions: [
-          'Chúng tôi nhập khẩu, phân phối và thương mại hóa hóa chất cho các ngành công nghiệp khác nhau, chẳng hạn như sản xuất hóa chất, thức ăn chăn nuôi, bột giấy & giấy, bao bì, xử lý nước và khai thác mỏ. Chúng tôi cũng xử lý các vật liệu cho sản xuất da nhân tạo, chất bán dẫn và công nghiệp phanh.',
-          'Chúng tôi cung cấp dịch vụ sản xuất OEM cho da tổng hợp cho ngành công nghiệp ô tô. Nhà máy OEM của chúng tôi, đặt tại khu vực Bangna-Trad, chuyên sản xuất da PU cho ngành công nghiệp ô tô bằng cả quy trình ướt và khô.<br/><br/>Chúng tôi cung cấp năng lực sản xuất linh hoạt để đáp ứng yêu cầu của bạn.',
+          'เรานำเข้า จัดจำหน่าย และทำการตลาดเคมีภัณฑ์สำหรับอุตสาหกรรมต่างๆ เช่น การผลิตสารเคมี อาหารสัตว์ เยื่อกระดาษและกระดาษ บรรจุภัณฑ์ การบำบัดน้ำ และการทำเหมืองแร่ นอกจากนี้เรายังดูแลวัสดุสำหรับการผลิตหนังเทียม เซมิคอนดักเตอร์ และอุตสาหกรรมเบรก',
+          'เราให้บริการผลิตแบบ OEM สำหรับหนังสังเคราะห์ในอุตสาหกรรมยานยนต์ โรงงาน OEM ของเราตั้งอยู่ในย่านบางนา-ตราด เชี่ยวชาญในการผลิตหนัง PU สำหรับยานยนต์โดยใช้ทั้งกระบวนการแบบเปียกและแบบแห้ง<br/><br/>เรามีกำลังการผลิตที่ยืดหยุ่นเพื่อตอบสนองความต้องการของคุณ',
         ],
-        productsTitle: 'Sản phẩm',
+        productsTitle: 'ผลิตภัณฑ์',
         products: [
           {
-            title: 'Hóa chất cơ bản',
-            description: 'Chúng tôi cung cấp Chlor-alkali, Soda Ash, Canxi Clorua, MEK, DMF, ECH, HAS, STS, Than hoạt tính, Canxi Stearate, Màng lọc, Silica Filler, Sợi thủy tinh.',
-            image: '/Business/Products/Basic Chemicals.png'
+            title: 'เคมีภัณฑ์พื้นฐาน',
+            description: 'เราจัดจำหน่าย คลออัลคาไล (Chlor-alkali), โซดาแอช (Soda Ash), แคลเซียมคลอไรด์, MEK, DMF, ECH, HAS, STS, ถ่านกัมมันต์ (Activated Carbon), แคลเซียมสเตียเรต, ไส้กรองเมมเบรน, ซิลิกาฟิลเลอร์, และเส้นใยแก้ว',
+            image: 'Business/Products/Basic Chemicals.webp'
           },
           {
-            title: 'Hóa chất tinh chế',
-            description: 'Keo urethane, Chất tạo lớp phủ hệ nước, Chất tạo lớp phủ hệ dung môi, Chất chịu nhiệt/nước/dầu, Chất phá bọt, Bột giấy, Màu pigment.',
-            image: '/Business/Products/Fine Chemicals.png'
+            title: 'เคมีภัณฑ์ละเอียด',
+            description: 'กาว ยูรีเทน, สารเคลือบสูตรน้ำ, สารเคลือบสูตรตัวทำละลาย, สารทนความร้อน/น้ำ/น้ำมัน, สารลดฟอง, เยื่อกระดาษ, และผงสี (Pigment colors)',
+            image: 'Business/Products/Fine Chemicals.webp'
           },
           {
-            title: 'Da nhân tạo',
-            description: 'Giấy ly型 (Release Paper), Chất tạo lớp phủ, Keo dán, Chất chống cháy, Vải, Chất đóng rắn (Cross Linker).',
-            image: '/Business/Products/Artificial Leather.png'
+            title: 'หนังเทียม',
+            description: 'กระดาษ Release Paper, สารเคลือบ, กาว, สารหน่วงการติดไฟ, ผ้า, และสารเชื่อมขวาง (Cross Linker)',
+            image: 'Business/Products/Artificial Leather.webp'
           },
         ],
       },
       plastic: {
-        title: 'Bộ phận Nhựa',
-        mainImage: '/Business/Divisions/Plastic Division.png',
+        title: 'แผนกพลาสติก',
+        mainImage: 'Business/Divisions/Plastic Division.webp',
         descriptions: [
-          'Chúng tôi nhập khẩu, phân phối và tiếp thị các hợp chất nhựa chức năng cho ngành công nghiệp nhựa, bao gồm các ứng dụng trong ô tô, thiết bị gia dụng và điện tử. Không chỉ ở thị trường trong nước, chúng tôi còn xuất khẩu các sản phẩm đó ra thị trường quốc tế.',
-          'Chúng tôi cũng xử lý việc bán hàng dựa trên kho bãi đối với nhựa nguyên sinh và phụ gia nhựa để sản xuất hợp chất nhựa. Ngoài ra, chúng tôi có chuyên môn trong kinh doanh xuất khẩu cho thị trường quốc tế.',
+          'เรานำเข้า จัดจำหน่าย และทำตลาดคอมพาวด์พลาสติกฟังก์ชัน (Functional plastic compounds) สำหรับอุตสาหกรรมพลาสติก รวมถึงการใช้งานในยานยนต์ เครื่องใช้ไฟฟ้าภายในบ้าน และอิเล็กทรอนิกส์ ไม่เพียงแต่ในตลาดภายในประเทศ เรายังส่งออกผลิตภัณฑ์เหล่านี้ไปยังตลาดต่างประเทศอีกด้วย',
+          'เรายังดูแลการขายเรซินพลาสติกและสารเติมแต่งสำหรับการผลิตคอมพาวด์พลาสติกแบบบริหารคลังสินค้า นอกจากนี้ เรามีความเชี่ยวชาญในธุรกิจส่งออกสำหรับตลาดระหว่างประเทศ',
         ],
-        productsTitle: 'Sản phẩm',
+        productsTitle: 'ผลิตภัณฑ์',
         products: [
           {
-            title: 'Nhựa tái chế',
-            description: 'Chúng tôi cung cấp cả nhựa thông dụng và nhựa kỹ thuật: PP, HDPE, LDPE, LLDPE, ABS, AS, HIPS, PC, PC/ABS, PET, PA6.',
-            image: '/Business/Products/Plastic Resins.png'
+            title: 'เม็ดพลาสติก',
+            description: 'เราจัดจำหน่ายทั้งเรซินทั่วไปและเรซินวิศวกรรม: PP, HDPE, LDPE, LLDPE, ABS, AS, HIPS, PC, PC/ABS, PET, PA6',
+            image: 'Business/Products/Plastic Resins.webp'
           },
           {
-            title: 'Phụ gia nhựa',
-            description: 'Để sửa đổi hoặc tăng cường tính chất, ngoại quan, gia công hoặc hiệu suất của nhựa: Sợi thủy tinh, Talc, Mica, Halogen-FR, Non Halogen-FR, ATO, AO, HALS, UVA.',
-            image: '/Business/Products/Plastic Add.png'
+            title: 'สารเติมแต่งพลาสติก',
+            description: 'เพื่อปรับปรุงหรือเพิ่มคุณสมบัติพลาสติก รูปลักษณ์ การขึ้นรูป หรือประสิทธิภาพ: เส้นใยแก้ว (Glass fiber), Talcum, Mica, สารหน่วงการติดไฟ (Halogen/Non-Halogen), ATO, AO, HALS, UVA',
+            image: 'Business/Products/Plastic Add.webp'
           },
           {
-            title: 'Hợp chất nhựa chức năng',
-            description: 'Các hợp chất nhựa chức năng khác nhau: PP-TA, PP-GF, PP-MI, PP-MIGF, PP-V2, PP-V0, ABS-V0, ABS-V2, HIPS- V0, PC-GF, PC-V0, PC/ABS-V0, PC/ABS-V2, PA6-GF v.v.',
-            image: '/Business/Products/Functional Plastic.png'
+            title: 'คอมพาวด์พลาสติกฟังก์ชัน',
+            description: 'คอมพาวด์พลาสติกฟังก์ชันหลากหลายชนิด: PP-TA, PP-GF, PP-MI, PP-MIGF, PP-V2, PP-V0, ABS-V0, ABS-V2, HIPS-V0, PC-GF, PC-V0, PC/ABS-V0, PC/ABS-V2, PA6-GF ฯลฯ',
+            image: 'Business/Products/Functional Plastic.webp'
           },
         ],
       },
       textile: {
-        title: 'Bộ phận Dệt',
-        mainImage: '/Business/Divisions/Textile Division.png',
+        title: 'แผนกสิ่งทอ',
+        mainImage: 'Business/Divisions/Textile Division.webp',
         descriptions: [
-          'Là nhà phân phối hàng đầu về hóa chất dệt nhuộm và thuốc nhuộm, chúng tôi tận dụng chuyên môn đã được chứng minh của Nagase-OG Colors and Chemicals. Chúng tôi phục vụ các nhà máy nhuộm trên khắp Thái Lan và thị trường quốc tế, hỗ trợ quan hệ đối tác với các thương hiệu toàn cầu nổi tiếng. Mạng lưới tích hợp của chúng tôi cung cấp các giải pháp sáng tạo trên tất cả các ứng dụng dệt may, từ thời trang may mặc đến vật liệu ô tô và công nghiệp.',
+          'ในฐานะผู้จัดจำหน่ายชั้นนำด้านเคมีภัณฑ์สิ่งทอและสีย้อม เราใช้ประโยชน์จากความเชี่ยวชาญของ Nagase-OG Colors and Chemicals เราให้บริการโรงงานย้อมผ้าทั่วประเทศไทยและตลาดต่างประเทศ โดยสนับสนุนพันธมิตรกับแบรนด์ระดับโลก เครือข่ายแบบบูรณาการของเรานำเสนอโซลูชั่นนวัตกรรมสำหรับการใช้งานสิ่งทอทุกประเภท ตั้งแต่เสื้อผ้าแฟชั่นไปจนถึงวัสดุยานยนต์และอุตสาหกรรม',
         ],
-        productsTitle: 'Sản phẩm',
+        productsTitle: 'ผลิตภัณฑ์',
         products: [
           {
-            title: 'Thuốc nhuộm',
-            description: 'Thuốc nhuộm phù hợp từ nhà cung cấp đáng tin cậy cho nhiều loại vật liệu, Bông, Rayon, Polyester, Nylon, Vải, Sợi, v.v. Màu sắc và độ bền màu thích hợp cho từng ứng dụng và tình huống.',
-            image: '/Business/Products/Dye.png'
+            title: 'สีย้อม (Dyestuff)',
+            description: 'สีย้อมที่เหมาะสมจากซัพพลายเออร์ที่เชื่อถือได้สำหรับวัสดุหลากหลายชนิด เช่น ฝ้าย, เรยอน, โพลีเอสเตอร์, ไนลอน, ผ้า, เส้นด้าย ฯลฯ ให้สีและความคงทนที่เหมาะสมสำหรับการใช้งานแต่ละประเภท',
+            image: 'Business/Products/Dye.webp'
           },
           {
-            title: 'Chất trợ (Auxiliary Agent)',
-            description: 'Các chất trợ giúp đạt được hiệu quả nhuộm cao, tiền xử lý, chất đều màu, chất giặt, chất cải thiện độ bền màu. Chúng tôi cũng có thể đề xuất các chất trợ được chứng nhận bởi Bluesign hoặc ZDHC.',
-            image: '/Business/Products/Agent.png'
+            title: 'สารช่วย (Auxiliary Agent)',
+            description: 'สารช่วยเพื่อให้การย้อมมีประสิทธิภาพสูง การเตรียมผ้า สารช่วยปรับระดับ สารซักล้าง สารปรับปรุงความคงทน เรายังสามารถเสนอสารช่วยที่ได้รับการรับรองจาก Bluesign หรือ ZDHC',
+            image: 'Business/Products/Agent.webp'
           },
           {
-            title: 'Chất chức năng',
-            description: 'Các chất chức năng khác nhau, Khử mùi kháng khuẩn, Chống muỗi & mạt, Chống thấm nước, Chống cháy, Chống tĩnh điện, Quản lý độ ẩm, Cảm giác mát & nóng.',
-            image: '/Business/Products/Functional Agent.png'
+            title: 'สารฟังก์ชัน (Functional Agent)',
+            description: 'สารฟังก์ชันต่างๆ เช่น สารระงับกลิ่นกายต้านเชื้อแบคทีเรีย, ป้องกันยุงและไรฝุ่น, สารกันน้ำ, สารหน่วงการติดไฟ, ป้องกันไฟฟ้าสถิต, การจัดการความชื้น, สารให้ความรู้สึกเย็นและร้อน',
+            image: 'Business/Products/Functional Agent.webp'
           },
         ],
       },
-      contactButton: 'Liên hệ',
+      contactButton: 'ติดต่อเรา',
     },
     services: {
-      title: 'Dịch vụ của chúng tôi',
-      banner: 'Nếu bạn gặp bất kỳ vấn đề nào hoặc muốn nhận báo giá, vui lòng liên hệ với chúng tôi.',
-      contactButton: 'Liên hệ',
+      title: 'บริการของเรา',
+      banner: 'หากคุณมีปัญหาหรือต้องการใบเสนอราคา โปรดติดต่อเรา',
+      contactButton: 'ติดต่อเรา',
+      // Added all 4 items in Thai
       items: [
         {
-          title: 'Nhập khẩu và Phân phối',
-          description: 'Tìm nguồn và phân phối các hóa chất và vật liệu chất lượng cao cho ô tô, điện tử, đóng gói, dệt may và các ứng dụng công nghiệp khác, với cung cấp ổn định và giao hàng ngay kịp thời (JIT).',
+          title: 'การนำเข้าและจัดจำหน่าย',
+          description: 'การจัดหาและจัดจำหน่ายเคมีภัณฑ์และวัสดุคุณภาพสูงสำหรับยานยนต์ อิเล็กทรอนิกส์ บรรจุภัณฑ์ สิ่งทอ และงานอุตสาหกรรม พร้อมการจัดส่งที่มั่นคงและทันเวลา (JIT)',
         },
         {
-          title: 'Sản xuất theo Đơn đặt hàng (OEM)',
-          description: 'Sản xuất da tổng hợp (PU) theo đơn đặt hàng cho ngành công nghiệp ô tô, hỗ trợ cả quá trình ướt lẫn khô, với năng lực sản xuất linh hoạt từ sản xuất nhỏ đến sản xuất hàng loạt.',
+          title: 'การรับจ้างผลิต (OEM)',
+          description: 'การรับจ้างผลิต (OEM) หนังเทียม (PU) สำหรับอุตสาหกรรมยานยนต์ รองรับทั้งกระบวนการแบบเปียกและแห้ง พร้อมการผลิตที่ยืดหยุ่นตั้งแต่จำนวนน้อยไปจนถึงการผลิตจำนวนมาก',
         },
         {
-          title: 'Đại lý được ủy quyền và Hợp chất chức năng',
-          description: 'Đại lý được ủy quyền và độc quyền cho các hợp chất nhựa tái chế và chức năng (PP, ABS, HIPS, PC, PC/ABS và phụ gia), phục vụ cả thị trường địa phương và quốc tế với chuyên môn kỹ thuật.',
+          title: 'ตัวแทนจำหน่ายและคอมพาวด์ฟังก์ชัน',
+          description: 'ตัวแทนจำหน่ายที่ได้รับอนุญาตและแต่เพียงผู้เดียวสำหรับคอมพาวด์พลาสติกรีไซเคิลและฟังก์ชัน (PP, ABS, HIPS, PC, PC/ABS และสารเติมแต่ง) ให้บริการทั้งตลาดในประเทศและต่างประเทศด้วยความเชี่ยวชาญทางเทคนิค',
         },
         {
-          title: 'Hỗ trợ Thị trường Trong nước và Quốc tế',
-          description: 'Hỗ trợ thị trường và logistics trên khắp Thái Lan, ASEAN và Nhật Bản thông qua mạng lưới toàn cầu của OG Corporation, được hỗ trợ bởi các kho DG và non-DG tại nhiều địa điểm.',
+          title: 'การสนับสนุนตลาดในประเทศและต่างประเทศ',
+          description: 'การสนับสนุนด้านการตลาดและโลจิสติกส์ทั่วประเทศไทย อาเซียน และญี่ปุ่น ผ่านเครือข่ายระดับโลกของ OG Corporation พร้อมคลังสินค้า DG และ non-DG ในหลายพื้นที่',
         },
       ],
     },
     partners: {
-      title: 'Đối tác của chúng tôi',
+      title: 'พันธมิตรของเรา',
     },
     contact: {
-      companyInfoHeader: 'OG Thái Lan',
-      companyInfoTitle: 'THÔNG TIN CÔNG TY',
-      intro: 'OG Trading (Thailand) Co., Ltd. là công ty thương mại chuyên biệt cung cấp các giải pháp toàn diện trong lĩnh vực bán hàng, xuất khẩu, nhập khẩu và phân phối dựa vào hàng tồn kho trên khắp Thái Lan, Malaysia, Indonesia và Nhật Bản. Chúng tôi phục vụ các ngành công nghiệp chính bao gồm hóa chất, ô tô, điện tử, hợp chất nhựa, dệt may và nhiều lĩnh vực khác. Là một phần của mạng lưới toàn cầu của OG Corporation Nhật Bản, với hơn 3.000 khách hàng và sự hiện diện mạnh mẽ tại Trung Quốc, Ấn Độ và Đông Nam Á, chúng tôi cung cấp các giải pháp được tùy chỉnh để đáp ứng nhu cầu kinh doanh của bạn.',
-      company: 'Công ty',
-      companyName: 'OG TRADING (THAILAND) CO., LTD.',
-      dateEstablished: 'Ngày thành lập',
-      dateValue: '30 tháng 10 năm 2009',
-      capital: 'Vốn',
-      capitalValue: 'THB 12,000,000',
-      managingDirector: 'Giám đốc điều hành',
-      directorName: 'Kentaro Yamada (Thầy)',
-      shareholders: 'Cổ đông',
-      shareholderValue: 'Cổ đông Thái Lan 51% / OG Corporation 49%',
-      address: 'Địa chỉ văn phòng',
-      addressValue: '12 Thaniya Bldg., 10th Fl., Unit 1006-1007, Silom Rd., Suriyawongse, Bangrak, Bangkok 10500, Thái Lan',
-      tel: 'TEL: (+66) 0 2 237 8893 (REP)',
-      fax: 'FAX: (+66) 0 2 237 8895',
-      contactTitle: 'LIÊN HỆ',
-      contactSubtitle: 'Vui lòng liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi nào hoặc muốn yêu cầu báo giá.',
-      yourName: 'Tên của bạn',
-      companyNameLabel: 'Tên công ty',
-      email: 'Email',
-      phone: 'Điện thoại',
-      inquiryContent: 'Nội dung yêu cầu',
-      privacyText: 'Đồng ý',
-      privacyLink: '*Về chính sách bảo mật của chúng tôi',
-      submit: 'Gửi',
+      companyInfoHeader: 'OG Thailand',
+      companyInfoTitle: 'ข้อมูลบริษัท',
+      intro: 'บริษัท โอจี เทรดดิ้ง (ไทยแลนด์) จำกัด เป็นบริษัทการค้าเฉพาะทางที่ให้บริการโซลูชั่นครบวงจร ทั้งการขาย การส่งออก การนำเข้า และการกระจายสินค้าจากคลังสินค้า ครอบคลุมทั้งในประเทศไทย มาเลเซีย อินโดนีเซีย และญี่ปุ่น เราให้บริการในอุตสาหกรรมหลักต่างๆ รวมถึงเคมีภัณฑ์ ยานยนต์ อิเล็กทรอนิกส์ เรซินคอมพาวด์ สิ่งทอ และอื่นๆ ในฐานะส่วนหนึ่งของเครือข่ายระดับโลกของ OG Corporation ประเทศญี่ปุ่น ที่มีลูกค้ากว่า 3,000 ราย และมีความแข็งแกร่งในจีน อินเดีย และเอเชียตะวันออกเฉียงใต้ เราพร้อมส่งมอบโซลูชั่นที่ปรับแต่งให้เหมาะสมกับความต้องการทางธุรกิจของคุณ',
+      company: 'บริษัท',
+      companyName: 'บริษัท โอจี เทรดดิ้ง (ไทยแลนด์) จำกัด',
+      dateEstablished: 'วันที่ก่อตั้ง',
+      dateValue: '30 ตุลาคม 2552',
+      capital: 'ทุนจดทะเบียน',
+      capitalValue: '12,000,000 บาท',
+      managingDirector: 'กรรมการผู้จัดการ',
+      directorName: 'นายเคนทาโร่ ยามาดะ',
+      shareholders: 'ผู้ถือหุ้น',
+      shareholderValue: 'ผู้ถือหุ้นไทย 51% / OG Corporation 49%',
+      address: 'ที่ตั้งสำนักงาน',
+      addressValue: 'อาคารธนิยะ ชั้น 10 ยูนิต 1006-1007, ถนนสีลม, แขวงสุริยวงศ์, เขตบางรัก, กรุงเทพฯ 10500, ประเทศไทย',
+      tel: 'โทร: (+66) 0 2 237 8893 (อัตโนมัติ)',
+      fax: 'แฟกซ์: (+66) 0 2 237 8895',
+      contactTitle: 'ติดต่อเรา',
+      contactSubtitle: 'โปรดติดต่อเราหากมีข้อสงสัยหรือต้องการใบเสนอราคา',
+      yourName: 'ชื่อของคุณ',
+      companyNameLabel: 'ชื่อบริษัท',
+      email: 'อีเมล',
+      phone: 'เบอร์โทรศัพท์',
+      inquiryContent: 'รายละเอียดการติดต่อ',
+      privacyText: 'ยอมรับ',
+      privacyLink: '*เกี่ยวกับนโยบายความเป็นส่วนตัวของเรา',
+      submit: 'ส่งข้อความ',
     },
     footer: {
-      company: 'OG TRADING (THAILAND) CO., LTD.',
-      address1: '62 Thaniya Bldg., 10th Fl., Unit 1006-1007',
-      address2: 'Silom Rd., Suriyawongse, Bangrak, Bangkok 10500, Thái Lan',
-      tel: 'TEL: (+66) 0 2 237 8893 (REP)',
-      fax: 'FAX: (+66) 0 2 237 8895',
-      privacyPolicy: 'Chính sách bảo mật',
+      company: 'บริษัท โอจี เทรดดิ้ง (ไทยแลนด์) จำกัด',
+      address1: 'อาคารธนิยะ ชั้น 10 ยูนิต 1006-1007',
+      address2: 'ถนนสีลม, แขวงสุริยวงศ์, เขตบางรัก, กรุงเทพฯ 10500',
+      tel: 'โทร: (+66) 0 2 237 8893 (อัตโนมัติ)',
+      fax: 'แฟกซ์: (+66) 0 2 237 8895',
+      privacyPolicy: 'นโยบายความเป็นส่วนตัว',
     },
   },
 };

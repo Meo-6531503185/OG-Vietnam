@@ -12,7 +12,7 @@ const ProductCard = ({ image, title, description }) => (
       {title}
     </div>
     {/* flex-grow pushes footer down if descriptions vary in length */}
-    <p className="text-[13px] leading-[1.7] text-[#333] p-[14px_16px_18px] grow">
+    <p className="text-[13px] md:text-justify leading-[1.7] text-[#333] p-[14px_16px_18px] grow">
       {description}
     </p>
   </div>
@@ -28,8 +28,8 @@ const DivisionSection = ({
   productsTitle,
 }) => {
   return (
-    <section className="pt-8 pb-16 px-[5%] max-w-350 mx-auto">
-      <div className="bg-[#EBF6FF] border border-[#006CB8] rounded-md p-10 md:p-16 mb-10 flex flex-col relative">
+    <section className="pt-4 pb-8 md:pb-16 px-[5%] max-w-350 mx-auto">
+      <div className="bg-[#EBF6FF] border border-[#006CB8] rounded-md p-10 md:p-16 flex flex-col relative">
         
         {/* --- TOP AREA --- */}
         <div className="min-h-auto md:min-h-75 flex items-center">
@@ -61,7 +61,7 @@ const DivisionSection = ({
             </div>
 
             {/* Text Area */}
-            <div className={`pt-0 md:pt-28.75 text-left ${isReversed ? 'md:order-1' : 'md:order-2'}`}>
+            <div className={`pt-0 md:text-justify md:pt-28.75 text-left ${isReversed ? 'md:order-1' : 'md:order-2'}`}>
               {descriptions.map((text, index) => (
                 <p 
                   key={index} 
@@ -133,7 +133,7 @@ const BusinessSection = () => {
 
   return (
     <div id="business" className='pt-4'>
-        <div className="text-center mb-10 mt-10">
+        <div className="text-center mb-10 mt-0">
             <h2 className="text-3xl md:text-4xl font-bold text-[#102D5E] inline-block relative pb-4 font-noto-sans">
                 {t.navbar.business}
                 <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-[#102D5E]"></span>

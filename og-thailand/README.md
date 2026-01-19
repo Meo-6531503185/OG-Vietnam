@@ -1,6 +1,6 @@
 # OG Trading (Thailand) Corporate Website
 
-A modern, responsive corporate website built for **OG Trading (Thailand) Co., Ltd.**, utilizing React and Tailwind CSS. This project features a bilingual interface (English/Vietnamese), smooth scroll navigation, and a fully functional contact form integrated with EmailJS.
+A modern, responsive corporate website built for **OG Trading (Thailand) Co., Ltd.**, utilizing React and Tailwind CSS. This project features a bilingual interface (English/Thai), smooth scroll navigation, and a fully functional contact form integrated with EmailJS.
 
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![React](https://img.shields.io/badge/React-18-blue?logo=react)
@@ -61,17 +61,3 @@ To make the contact form work, you need to set up your own EmailJS account.
 2.  Create a **Service** (e.g., connect Gmail).
 3.  Create an **Email Template**.
 4.  Get your **Service ID**, **Template ID**, and **Public Key**.
-
-📂 Project Structure
-src/
-├── assets/             # Static images (logo, products)
-├── components/
-│   ├── BusinessSection.jsx  # Products & Divisions layout
-│   ├── CompanyInfo.jsx      # Company details table & map
-│   ├── Contact.jsx          # Contact form with EmailJS
-│   └── Navbar.jsx           # Sticky nav with Scroll Spy
-├── i18n/
-│   ├── LanguageContext.jsx  # Context API for translation state
-│   └── translations.js      # Text data for EN and VN
-├── App.jsx             # Main application component
-└── main.jsx            # Entry point
